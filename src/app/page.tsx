@@ -14,7 +14,7 @@ export default async function Home() {
         <h3 className="Header-Desc-1">By : <Link className="Header-Desc-2" href={'https://felixfilipi.github.io/felixfilipi/'}>Felix Filipi</Link></h3>
       </div>
       <div className="List-Container">
-      {res.results.map((movie : any) => 
+      {res.results?.map((movie : any) => 
         {
           i = i+1;
           return(
