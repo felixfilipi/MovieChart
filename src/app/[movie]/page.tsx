@@ -30,7 +30,7 @@ export default async function MovieDetail({params} : any){
             {res.status}
           </h2>
           {res.genres.map((item : any) => (
-            <h2 className="Red-Badge">
+            <h2 key={item.id} className="Red-Badge">
               {item.name}
             </h2>
           ))}

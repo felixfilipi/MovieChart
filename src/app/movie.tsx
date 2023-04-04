@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Movie({title, id, poster_path, release_date, overview, rank} : any){
   const imagePath = 'https://image.tmdb.org/t/p/original'
@@ -14,7 +15,7 @@ export default function Movie({title, id, poster_path, release_date, overview, r
             <h2 className="text-sm">{release_date}</h2>
           </div>
           <div className="Card-Content-Container">
-            <img 
+            <Image 
               src={imagePath + poster_path} 
               width={400} 
               height={400} 
