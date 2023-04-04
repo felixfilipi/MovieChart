@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @import "../css/index.css";
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -86,13 +94,11 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: black;
+}
+
+h1, h2, h3, p{
+  color: white;
 }
 
 a {

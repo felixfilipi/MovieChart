@@ -1,0 +1,79 @@
+.Header-Container {
+  @apply text-center px-5 py-3 bg-[#242526] rounded-tl-xl rounded-tr-xl;
+}
+
+.Header-Logo-1 {
+  @apply text-5xl;
+}
+
+.Header-Logo-2 {
+  @apply text-blue-400;
+}
+
+.Header-Desc-1 {
+  @apply text-xl mt-3;
+}
+
+.Header-Desc-2 {
+  @apply text-orange-400 hover:underline;
+}
+
+.List-Container {
+  @apply grid gap-16 grid-cols-fluid bg-[#414546] p-9 rounded-br-xl rounded-bl-xl;
+}
+
+.Content-Rank-Container {
+  @apply rounded-full bg-black p-3 w-fit;
+}
+
+.Content-Rank-Text {
+  @apply text-3xl w-fit;
+}
+
+.Card-Main-Container {
+  @apply hover:scale-105 transform duration-700;
+}
+
+.Card-Header-Container {
+  @apply mt-5 bg-[#242526] py-5 px-5 rounded-tl-xl rounded-tr-xl w-full;
+}
+
+.Card-Header-Title {
+  @apply text-xl mb-2 truncate hover:whitespace-normal transform hover:-translate-y-1 hover:text-blue-400 hover:underline duration-500;
+}
+
+.Card-Content-Container {
+  @apply relative overflow-hidden;
+}
+
+.Card-Description-Container {
+  @apply absolute bottom-0;
+}
+
+.Card-Description-Layout {
+  @apply bg-black/70 h-44 px-5 py-3 overflow-hidden hover:whitespace-normal hover:overflow-scroll;
+}
+
+.Item-Title {
+  @apply text-3xl my-2 underline;
+}
+
+.Badge-Layout {
+  @apply flex flex-row gap-3 my-5 text-sm;
+}
+
+.Green-Badge {
+  @apply bg-green-600 py-2 px-4 rounded-md; 
+}
+
+.Red-Badge {
+  @apply bg-red-600 py-2 px-4 rounded-md;
+}
+
+.Image-Layout {
+  @apply my-12 w-full rounded-xl;
+}
+
+.Overview {
+  @apply text-lg text-justify;
+}
